@@ -12,7 +12,7 @@ escrevaMeuNome('maria');
 
 function conferirMarioridade(idade) {
     if (idade <= 18) {
-        console.log(escrevaMeuNome('maria') + ' e sou maior');
+        console.log(escrevaMeuNome('maria') + ' e sou memor de idade');
     } else if (idade > 18) {
         console.log('Maior de idade ' + idade);
     }
