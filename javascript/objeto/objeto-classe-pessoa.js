@@ -14,12 +14,21 @@ class Pessoa {
         this.altura = altura;
     }
 
-    calculaImc(peso, altura){
+    calculaImc() {
 
-        return this.peso / (this.altura *this.altura);
-
+        return this.peso / (this.altura * this.altura);
+        
     }
-}
- const maria = new Pessoa('maria',63,1.63);
 
- console.log(maria);
+  
+}
+
+const maria = new Pessoa('maria', 63, 1.63);
+console.log(maria);
+console.log('O meu imc é : ' +maria.calculaImc().toFixed(2));
+
+
+/*
+let imcMaria = maria.calculaImc();
+console.log(imcMaria);
+*/
